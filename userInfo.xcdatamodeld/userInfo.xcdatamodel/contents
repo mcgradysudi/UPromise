@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="6252" systemVersion="14A389" minimumToolsVersion="Xcode 4.3" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="Comment" representedClassName="Comment" syncable="YES">
+        <attribute name="co_content" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="co_id" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="co_pid" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="create_time" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="headpicture" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="promiseid" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="replyname" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="replyuserid" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="userid" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="username" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="FriendList" representedClassName="FriendList" syncable="YES">
+        <attribute name="account" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="birthday" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="explaininfo" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="grade" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="headpicture" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="openaccount" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="ownFriendid" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="password" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="sex" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="successsize" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="totalsize" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="userid" optional="YES" attributeType="Integer 32" defaultValueString="0" indexed="YES" syncable="YES"/>
+        <attribute name="username" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="watchsize" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+    </entity>
+    <entity name="ImageList" representedClassName="ImageList" syncable="YES">
+        <attribute name="imagepath" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="promise" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Promise" inverseName="imagelist" inverseEntity="Promise" syncable="YES"/>
+    </entity>
+    <entity name="Promise" representedClassName="Promise" syncable="YES">
+        <attribute name="comment" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="create_date" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="displayall" optional="YES" attributeType="Boolean" defaultValueString="NO" syncable="YES"/>
+        <attribute name="due_date" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="egg" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="end_date" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="friend_id" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="hadegg" optional="YES" attributeType="Boolean" defaultValueString="NO" syncable="YES"/>
+        <attribute name="hadpraise" optional="YES" attributeType="Boolean" defaultValueString="NO" syncable="YES"/>
+        <attribute name="headpicture" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="imageString" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="praise" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="pro_content" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="pro_status" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="promiseid" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="proveimageString" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="punish" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="start_date" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="topic" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="user_id" optional="YES" attributeType="Integer 32" indexed="YES" syncable="YES"/>
+        <attribute name="username" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="visiable_scope" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="watch_id" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="watchman" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="imagelist" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="ImageList" inverseName="promise" inverseEntity="ImageList" syncable="YES"/>
+        <relationship name="user" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="UserInfo" inverseName="promise" inverseEntity="UserInfo" syncable="YES"/>
+    </entity>
+    <entity name="UserInfo" representedClassName="UserInfo" syncable="YES">
+        <attribute name="account" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="birthday" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="explaininfo" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="grade" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="headpicture" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="isLogin" optional="YES" attributeType="Boolean" defaultValueString="NO" syncable="YES"/>
+        <attribute name="openaccount" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="password" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="sex" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="successsize" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="totalsize" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="userid" optional="YES" attributeType="Integer 32" defaultValueString="0" indexed="YES" syncable="YES"/>
+        <attribute name="username" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="watchsize" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <relationship name="promise" optional="YES" toMany="YES" deletionRule="Nullify" ordered="YES" destinationEntity="Promise" inverseName="user" inverseEntity="Promise" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Comment" positionX="-54" positionY="135" width="128" height="195"/>
+        <element name="FriendList" positionX="-45" positionY="144" width="128" height="253"/>
+        <element name="ImageList" positionX="-54" positionY="135" width="128" height="73"/>
+        <element name="Promise" positionX="-63" positionY="63" width="128" height="435"/>
+        <element name="UserInfo" positionX="-63" positionY="-18" width="128" height="270"/>
+    </elements>
+</model>

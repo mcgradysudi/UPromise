@@ -1,0 +1,32 @@
+//
+//  Prefix header
+//
+//  The contents of this file are implicitly included at the beginning of every source file.
+//
+
+#import <Availability.h>
+
+#ifndef __IPHONE_5_0
+#warning "This project uses features only available in iOS SDK 5.0 and later."
+#endif
+
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+    #import <Foundation/Foundation.h>
+
+#import "WeiboSDK.h"
+#import <TencentOpenAPI/TencentOAuth.h>
+#import <TencentOpenAPI/QQApiInterface.h>
+#import <TencentOpenAPI/QQApiInterfaceObject.h>
+#import "WXApi.h"
+#import "WXApiObject.h"
+//com.sina.weibo.SNWeiboSDKDemo
+#define kAppKey    @"2617270591"//@"4062787064" // @"3508401519" //@"4062787064"
+#define kRedirectURI     @"https://api.weibo.com/oauth2/default.html"
+
+#define weixinAppKey    @"wx3e82bfeecee33051"//@"4062787064" // @"3508401519" //@"4062787064"
+
+#define IMAGEURL @"http://182.92.220.59/Upromise/Image/thumb_%@"
+#define HOST @"http://182.92.220.59"
+
+#endif

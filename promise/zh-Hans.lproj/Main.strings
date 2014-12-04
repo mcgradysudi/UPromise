@@ -1,0 +1,183 @@
+
+/* Class = "IBUILabel"; text = "微博"; ObjectID = "3Ji-dr-Ugv"; */
+"3Ji-dr-Ugv.text" = "微博";
+
+/* Class = "IBUILabel"; text = "推荐UP给朋友"; ObjectID = "4lc-JP-Qsq"; */
+"4lc-JP-Qsq.text" = "推荐UP给朋友";
+
+/* Class = "IBUILabel"; text = "打分鼓励一下"; ObjectID = "5FW-rx-RNP"; */
+"5FW-rx-RNP.text" = "打分鼓励一下";
+
+/* Class = "IBUINavigationItem"; title = "编辑个人资料"; ObjectID = "8hw-Cb-Vat"; */
+"8hw-Cb-Vat.title" = "编辑个人资料";
+
+/* Class = "IBUINavigationItem"; title = "YOU PROMISE"; ObjectID = "8rL-8R-2gm"; */
+"8rL-8R-2gm.title" = "YOU PROMISE";
+
+/* Class = "IBUILabel"; text = "昵称"; ObjectID = "9yw-xA-3vo"; */
+"9yw-xA-3vo.text" = "昵称";
+
+/* Class = "IBUITabBarItem"; title = "活动"; ObjectID = "CQa-pz-oHf"; */
+"CQa-pz-oHf.title" = "活动";
+
+/* Class = "IBUILabel"; text = "公开"; ObjectID = "CnR-vJ-pAv"; */
+"CnR-vJ-pAv.text" = "公开";
+
+/* Class = "IBUILabel"; text = "完成    8"; ObjectID = "Dbi-s9-hoG"; */
+"Dbi-s9-hoG.text" = "完成    8";
+
+/* Class = "IBUIButton"; normalTitle = "Button"; ObjectID = "Dnm-ax-xXg"; */
+"Dnm-ax-xXg.normalTitle" = "Button";
+
+/* Class = "IBUILabel"; text = "密       码"; ObjectID = "EGm-dD-xRG"; */
+"EGm-dD-xRG.text" = "密       码";
+
+/* Class = "IBUILabel"; text = "通知和提醒"; ObjectID = "FXa-jE-uzS"; */
+"FXa-jE-uzS.text" = "通知和提醒";
+
+/* Class = "IBUIButton"; normalTitle = "登  录"; ObjectID = "JK6-a5-G2V"; */
+"JK6-a5-G2V.normalTitle" = "登  录";
+
+/* Class = "IBUILabel"; text = "修改头像"; ObjectID = "KWh-6U-87Z"; */
+"KWh-6U-87Z.text" = "修改头像";
+
+/* Class = "IBUILabel"; text = "单击注册表示你同意"; ObjectID = "LWg-fx-fFp"; */
+"LWg-fx-fFp.text" = "单击注册表示你同意";
+
+/* Class = "IBUILabel"; text = "可 见 范 围"; ObjectID = "Lxy-dG-Heh"; */
+"Lxy-dG-Heh.text" = "可 见 范 围";
+
+/* Class = "IBUITextField"; placeholder = "在列表中搜索"; ObjectID = "M0S-Ud-Ic3"; */
+"M0S-Ud-Ic3.placeholder" = "在列表中搜索";
+
+/* Class = "IBUITextField"; placeholder = "邮箱"; ObjectID = "MHi-jT-6xd"; */
+"MHi-jT-6xd.placeholder" = "邮箱";
+
+/* Class = "IBUINavigationItem"; title = "YOU PROMISE"; ObjectID = "NIT-EF-yfp"; */
+"NIT-EF-yfp.title" = "YOU PROMISE";
+
+/* Class = "IBUILabel"; text = "开 始 时 间"; ObjectID = "ON2-0R-0RU"; */
+"ON2-0R-0RU.text" = "开 始 时 间";
+
+/* Class = "IBUILabel"; text = "个人签名： Yesterday you said tomorrow"; ObjectID = "OPi-gb-qLL"; */
+"OPi-gb-qLL.text" = "个人签名： Yesterday you said tomorrow";
+
+/* Class = "IBUINavigationItem"; title = "注   册"; ObjectID = "OXG-2W-fa9"; */
+"OXG-2W-fa9.title" = "注   册";
+
+/* Class = "IBUILabel"; text = "监督    2"; ObjectID = "Oi4-b6-VdG"; */
+"Oi4-b6-VdG.text" = "监督    2";
+
+/* Class = "IBUILabel"; text = "性别"; ObjectID = "PXu-Qi-OXE"; */
+"PXu-Qi-OXE.text" = "性别";
+
+/* Class = "IBUILabel"; text = "简介"; ObjectID = "PfN-EW-BdT"; */
+"PfN-EW-BdT.text" = "简介";
+
+/* Class = "IBUIButton"; normalTitle = "发布"; ObjectID = "QJ8-7I-qPD"; */
+"QJ8-7I-qPD.normalTitle" = "发布";
+
+/* Class = "IBUILabel"; text = "拉好友监督"; ObjectID = "Tva-C4-6Ev"; */
+"Tva-C4-6Ev.text" = "拉好友监督";
+
+/* Class = "IBUITabBarItem"; title = "首页"; ObjectID = "Ylf-43-yL6"; */
+"Ylf-43-yL6.title" = "首页";
+
+/* Class = "IBUILabel"; text = "888"; ObjectID = "adM-fI-RsL"; */
+"adM-fI-RsL.text" = "888";
+
+/* Class = "IBUITabBarItem"; title = "设置"; ObjectID = "bZT-SL-KWW"; */
+"bZT-SL-KWW.title" = "设置";
+
+/* Class = "IBUILabel"; text = "ZSLYC"; ObjectID = "cU9-iA-u2l"; */
+"cU9-iA-u2l.text" = "ZSLYC";
+
+/* Class = "IBUILabel"; text = "UP用户服务协议"; ObjectID = "cZ5-nM-lhL"; */
+"cZ5-nM-lhL.text" = "UP用户服务协议";
+
+/* Class = "IBUILabel"; text = "同步社交圈"; ObjectID = "dEm-Wh-nWW"; */
+"dEm-Wh-nWW.text" = "同步社交圈";
+
+/* Class = "IBUILabel"; text = "截 止 时 间"; ObjectID = "eKl-oi-bhW"; */
+"eKl-oi-bhW.text" = "截 止 时 间";
+
+/* Class = "IBUIButton"; normalTitle = "立即注册"; ObjectID = "fcY-aj-Q7i"; */
+"fcY-aj-Q7i.normalTitle" = "立即注册";
+
+/* Class = "IBUITextField"; placeholder = "请输入6-20位密码"; ObjectID = "hMi-DT-mRL"; */
+"hMi-DT-mRL.placeholder" = "请输入6-20位密码";
+
+/* Class = "IBUILabel"; text = "帮助"; ObjectID = "hSL-xY-ACv"; */
+"hSL-xY-ACv.text" = "帮助";
+
+/* Class = "IBUILabel"; text = "确认密码"; ObjectID = "j6C-WW-1Jl"; */
+"j6C-WW-1Jl.text" = "确认密码";
+
+/* Class = "IBUITextField"; placeholder = "密码"; ObjectID = "kC1-m4-n8Z"; */
+"kC1-m4-n8Z.placeholder" = "密码";
+
+/* Class = "IBUITextField"; placeholder = "请输入6-20位密码"; ObjectID = "kHn-jA-Ckr"; */
+"kHn-jA-Ckr.placeholder" = "请输入6-20位密码";
+
+/* Class = "IBUIButton"; normalTitle = "退出登录"; ObjectID = "kUt-ea-MTP"; */
+"kUt-ea-MTP.normalTitle" = "退出登录";
+
+/* Class = "IBUIBarButtonItem"; title = " "; ObjectID = "ky3-PH-oYR"; */
+"ky3-PH-oYR.title" = " ";
+
+/* Class = "IBUILabel"; text = "意见反馈"; ObjectID = "kyx-ja-LpK"; */
+"kyx-ja-LpK.text" = "意见反馈";
+
+/* Class = "IBUILabel"; text = "关于UP"; ObjectID = "mgp-qk-cai"; */
+"mgp-qk-cai.text" = "关于UP";
+
+/* Class = "IBUIButton"; normalTitle = "主 题"; ObjectID = "mkh-4d-qnz"; */
+"mkh-4d-qnz.normalTitle" = "主 题";
+
+/* Class = "IBUIButton"; normalTitle = "热 门"; ObjectID = "nML-pW-ivX"; */
+"nML-pW-ivX.normalTitle" = "热 门";
+
+/* Class = "IBUITextField"; placeholder = "用户名/邮箱"; ObjectID = "oaR-1l-6EE"; */
+"oaR-1l-6EE.placeholder" = "用户名/邮箱";
+
+/* Class = "IBUILabel"; text = "通用设置"; ObjectID = "pFU-zw-g4y"; */
+"pFU-zw-g4y.text" = "通用设置";
+
+/* Class = "IBUILabel"; text = "全部  12"; ObjectID = "quY-fG-K4A"; */
+"quY-fG-K4A.text" = "全部  12";
+
+/* Class = "IBUILabel"; text = "请输入你的承诺..."; ObjectID = "rnn-BP-1Ur"; */
+"rnn-BP-1Ur.text" = "请输入你的承诺...";
+
+/* Class = "IBUILabel"; text = "隐私与安全"; ObjectID = "s3W-ot-mTY"; */
+"s3W-ot-mTY.text" = "隐私与安全";
+
+/* Class = "IBUIButton"; normalTitle = "保存"; ObjectID = "tnf-ih-kCi"; */
+"tnf-ih-kCi.normalTitle" = "保存";
+
+/* Class = "IBUILabel"; text = "0/30"; ObjectID = "vJp-lK-DVu"; */
+"vJp-lK-DVu.text" = "0/30";
+
+/* Class = "IBUILabel"; text = "邮       箱"; ObjectID = "w1z-Y0-H4l"; */
+"w1z-Y0-H4l.text" = "邮       箱";
+
+/* Class = "IBUIButton"; normalTitle = "注  册"; ObjectID = "wA1-7n-MFM"; */
+"wA1-7n-MFM.normalTitle" = "注  册";
+
+/* Class = "IBUIViewController"; title = "YOU PROMISE"; ObjectID = "wPk-8U-FoL"; */
+"wPk-8U-FoL.title" = "YOU PROMISE";
+
+/* Class = "IBUITabBarItem"; title = "好友"; ObjectID = "wRz-YF-VG6"; */
+"wRz-YF-VG6.title" = "好友";
+
+/* Class = "IBUILabel"; text = "QQ"; ObjectID = "xNq-Hy-Onj"; */
+"xNq-Hy-Onj.text" = "QQ";
+
+/* Class = "IBUILabel"; text = "人人"; ObjectID = "zTg-hV-h0S"; */
+"zTg-hV-h0S.text" = "人人";
+
+/* Class = "IBUINavigationItem"; title = "我的好友"; ObjectID = "zXQ-xM-CHQ"; */
+"zXQ-xM-CHQ.title" = "我的好友";
+
+/* Class = "IBUILabel"; text = "积分"; ObjectID = "zq1-jS-Sgv"; */
+"zq1-jS-Sgv.text" = "积分";
